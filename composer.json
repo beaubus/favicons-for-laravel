@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Beaubus\\FaviconsForLaravel\\PackageServiceProvider"
+                "Beaubus\\FaviconsForLaravel\\BeaubusFaviconsServiceProvider"
             ]
         }
     }
