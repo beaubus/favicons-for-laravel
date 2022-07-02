@@ -1,0 +1,19 @@
+{
+    "name": "beaubus/favicons-for-laravel",
+    "description": "Choose favicon for you project from a set of 70+ BEAUBUS Favicons",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Beaubus\\FaviconsForLaravel\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beaubus\\FaviconsForLaravel\\PackageServiceProvider"
+            ]
+        }
+    }
+}
