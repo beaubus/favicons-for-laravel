@@ -11,6 +11,12 @@ php artisan vendor:publish --tag=beaubus-favicons --force
 ```
 
 > ❗️favicon.ico in /public folder would be changed after installation.
+ 
+
+Add to the header section of blade file:
+```php
+@include('favicons::all')
+```
 
 ## Change icon
 ```shell
