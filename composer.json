@@ -8,7 +8,9 @@
             "Beaubus\\FaviconsForLaravel\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "ext-zip": "*"
+    },
     "extra": {
         "laravel": {
             "providers": [
