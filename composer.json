@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.0|^8.1|^8.2",
         "ext-zip": "*",
         "illuminate/contracts": "^8.0|^9.0|^10.0"
     },
@@ -31,11 +31,5 @@
                 "Beaubus\\FaviconsForLaravel\\BeaubusFaviconsServiceProvider"
             ]
         }
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "echo 'installing favicons'",
-            "@php artisan vendor:publish --tag=beaubus-favicons --force"
-        ]
-   }
+    }
 }
