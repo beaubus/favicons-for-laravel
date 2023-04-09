@@ -1,6 +1,6 @@
 # BEAUBUS Favicons package for Laravel
 
-Package of [70+ free favicons](https://favicons.beaubus.com) for your Laravel project (12 sizes for each favicon). 
+Package of [110+ free favicons](https://favicons.beaubus.com) for your Laravel project (12 sizes for each favicon). 
 
 ![](demo.png)
 

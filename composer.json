@@ -2,6 +2,18 @@
     "name": "beaubus/favicons-for-laravel",
     "description": "Choose favicon for you project from a set of 70+ BEAUBUS Favicons",
     "license": "MIT",
+    "keywords": [
+        "favicon",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Daily Web Dev",
+            "homepage": "https://www.beaubus.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/beaubus/favicons-for-laravel",
     "type": "library",
     "autoload": {
         "psr-4": {
