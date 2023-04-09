@@ -33,6 +33,6 @@
         }
     },
     "scripts": {
-        "post-autoload-dump": "@php artisan vendor:publish --tag=beaubus-favicons --force"
+        "post-autoload-dump": "echo 'installing favicons' && php artisan vendor:publish --tag=beaubus-favicons --force"
    }
 }
