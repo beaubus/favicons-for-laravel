@@ -18,6 +18,8 @@ Add to the header section of blade file:
 @include('favicons::all')
 ```
 
+> Check if you linked your storage folder with `php artisan storage:link` if urls are not working.
+
 ## Change icon
 ```shell
 php artisan beaubus:install-favicon 'fidget spinner'
